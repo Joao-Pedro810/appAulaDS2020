@@ -47,5 +47,4 @@
             "mensagem" => "Ops... não foi possível conectar ao banco de dados"
         );
     }
-
    echo json_encode($dados, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
